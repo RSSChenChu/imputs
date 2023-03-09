@@ -55,13 +55,13 @@ class MyGame(arcade.Window):
         self.ball_list = []
 
         # Add three balls to the list
-        ball = Ball(50, 50, 3, 3, 15, arcade.color.AUBURN)
+        ball = Ball(50, 50, 3, 3, 15, arcade.color.CYBER_YELLOW)
         self.ball_list.append(ball)
 
-        ball = Ball(100, 150, 2, 3, 15, arcade.color.PURPLE_MOUNTAIN_MAJESTY)
+        ball = Ball(100, 150, 2, 3, 15, arcade.color.BLIZZARD_BLUE)
         self.ball_list.append(ball)
 
-        ball = Ball(150, 250, -3, -1, 15, arcade.color.FOREST_GREEN)
+        ball = Ball(150, 250, -3, -1, 15, arcade.color.BOSTON_UNIVERSITY_RED)
         self.ball_list.append(ball)
 
     def on_draw(self):
