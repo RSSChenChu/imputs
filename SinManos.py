@@ -31,16 +31,16 @@ class Ball:
 
         # See if the ball hit the edge of the screen. If so, change direction
         if self.position_x < self.radius:
-            self.change_x *= -2
+            self.change_x *= -1.02
 
         if self.position_x > SCREEN_WIDTH - self.radius:
-            self.change_x *= -2
+            self.change_x *= -1.02
 
         if self.position_y < self.radius:
-            self.change_y *= -2
+            self.change_y *= -1.02
 
         if self.position_y > SCREEN_HEIGHT - self.radius:
-            self.change_y *= -2
+            self.change_y *= -1.02
 
 
 class MyGame(arcade.Window):
